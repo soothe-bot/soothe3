@@ -2,7 +2,7 @@ const { ActivityType } = require("discord.js");
 const client = require("../index");
 
 const activities = [
-  { name: "s+help or /help", type: ActivityType.Playing },
+  { name: "s?help or /help", type: ActivityType.Playing },
   { name: "your heart 💗", type: ActivityType.Listening },
   { name: "with 💗 by L RMN", type: ActivityType.Watching},
 ];
